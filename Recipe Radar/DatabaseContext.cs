@@ -2,6 +2,6 @@
 {
     public class DatabaseContext
     {
-        public IEnumerable<object> Recepti { get; internal set; }
+        public IEnumerable<Recept> Recepti { get; internal set; }
     }
 }

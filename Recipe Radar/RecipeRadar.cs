@@ -55,7 +55,7 @@ namespace Recipe_Radar
             {
                 // Пребарај рецепти со внесената состојка во базата на податоци
                 List<Recept> recepti = dbContext.Recepti
-                    .Where(r => r.Sostojki.Any(s => s.Ime == sostojka))
+                    .Where(r => r.Sostojki.Any(s => s.Ime == sostojka.Ime))
                     .ToList();
 
                 primerkiRecepti.AddRange(recepti);

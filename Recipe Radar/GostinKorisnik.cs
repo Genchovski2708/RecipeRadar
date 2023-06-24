@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Recipe_Radar
 {
-    internal class GostinKorisnik
+    public class GostinKorisnik
     {
+        // Не содржи променливи или методи
     }
 }
